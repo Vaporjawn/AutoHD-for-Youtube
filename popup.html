@@ -1,0 +1,52 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <header>
+    <h3>Simple Auto HD</h3>
+  </header>
+
+  <section>
+    <span>Preferred Quality</span>
+    <span class="custom-dropdown big">
+      <select id="preferred-quality">
+        <option value="best-available">Best available quality</option>
+        <option value="4320p">8k - 4320p</option>
+        <option value="2160p">4k - 2160p</option>
+        <option value="1440p">HD - 1440p</option>
+        <option value="1080p">HD - 1080p</option>
+        <option value="720p">HD - 720p</option>
+        <option value="480p">SD - 480p</option>
+        <option value="360p">SD - 360p</option>
+        <option value="240p">SD - 240p</option>
+        <option value="144p">SD - 144p</option>
+        <option value="Auto">Auto mode</option>
+      </select>
+    </span>
+  </section>
+
+  <section>
+    <span>Theater Mode</span>
+    <div class="preload">
+      <label class="switcher">
+        <input class="toggle" type="checkbox" id="theater-mode">
+        <div class="switcher__indicator"></div>
+      </label>
+    </div>
+  </section>
+
+  <hr>
+
+  <section>
+    <a class="anchors" target="_blank" href="https://github.com/sameernyaupane/simple-auto-hd">
+      Github Source Code
+    </a>
+    <br><br>
+    <a class="anchors" target="_blank" href="" style="display: none;">
+      Chrome Web Store
+    </a>
+  </section>  
+  <script src="popup.js"></script>
+</body>
+</html>
